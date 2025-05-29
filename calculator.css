@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left,rgb(26, 26, 111),rgb(36, 96, 36),rgb(159, 58, 58));
+}
+.container{
+    width: 220px;
+    border: 1px solid black;
+    padding: 1rem 0.5rem;
+    margin: 250px auto;
+    background-color: rgb(176, 174, 174);
+    border-radius: 3px;
+}
+.inputfield input::placeholder{
+    text-align: end;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.inputfield input{
+    width: 90%;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 4px;
+    border: 1px solid rgb(126, 125, 125);
+    border-radius: 4px;
+    margin: 0px 8px;
+    text-align: end;
+}
+.firstRow,.secondRow,.thirdRow,.forthRow{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.firstRow p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 28px;
+    border: 1px solid rgb(97, 96, 96);
+    /* padding: 2px 2px; */
+    border-radius: 3px;
+    margin-top: 1.2rem;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.firstRow p:hover,
+.secondRow p:hover,
+.thirdRow p:hover,
+.forthRow p:hover
+{
+    background-color: rgb(157, 156, 156);
+}
+.firstRow p:nth-child(4),
+.firstRow p:nth-child(5),
+.secondRow p:nth-child(4),
+.secondRow p:nth-child(5),
+.thirdRow p:nth-child(4),
+.thirdRow p:nth-child(5),
+.forthRow p:nth-child(3),
+.forthRow p:nth-child(4)
+{
+    background-color: rgb(234, 136, 16);
+    font-weight: 500;
+    transition: 0.5s;
+}
+.thirdRow p:nth-child(5){
+    font-size: 13px;
+}
+.firstRow p:nth-child(4):hover,
+.firstRow p:nth-child(5):hover,
+.secondRow p:nth-child(4):hover,
+.secondRow p:nth-child(5):hover,
+.thirdRow p:nth-child(4):hover,
+.thirdRow p:nth-child(5):hover,
+.forthRow p:nth-child(3):hover,
+.forthRow p:nth-child(4):hover
+{
+     background-color: rgb(218, 130, 22);
+}
+.secondRow p,.thirdRow p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 28px;
+    border: 1px solid rgb(97, 96, 96);
+    /* padding: 2px 2px; */
+    border-radius: 3px;
+    margin-top: 0.8rem;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.forthRow p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 28px;
+     border: 1px solid rgb(97, 96, 96);
+    /* padding: 2px 2px; */
+    border-radius: 3px;
+    margin-top: 0.8rem;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.forthRow p:nth-child(1){
+    width: 70px;
+    
+}
